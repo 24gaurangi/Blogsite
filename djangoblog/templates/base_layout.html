@@ -1,0 +1,83 @@
+{% load static from staticfiles %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blogs Website</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Font awsome icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Compiled and minified JavaScript -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="navbar-wrapper">
+                <a href="{% url 'homepage' %}" class="brand-logo">Blogs</a>
+                <a href="" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+                <ul class="right hide-on-med-and-down">
+                    {% if user.is_authenticated %}
+                    <li><a href="{% url 'bloglist:create' %}" class="btn-flat btn-small waves-effect  waves-light tooltipped" data-tooltip="Create new Blog" type="submit">
+                            <i class="fas fa-plus"></i></a>
+                    </li>
+                    <li>
+                    <form action="{% url 'useraccounts:logout' %}" method="post">
+                        {% csrf_token %}
+                        <button class="btn-flat btn-small white waves-effect waves-light tooltipped" data-tooltip="Logout" type="submit">
+                            <i class="fas fa-power-off"></i></button>
+                    </form>
+                    </li>
+                    {% else %}
+                    <li><a href="{% url 'useraccounts:login' %}">Login</a></li>
+                    <li><a href="{% url 'useraccounts:signup' %}">Signup</a></li>
+                    {% endif %}
+                </ul>
+                <ul class="sidenav grey lighten-5" id="mobile-menu">
+                    {% if user.is_authenticated %}
+                    <li><a href="{% url 'bloglist:create' %}">Create new Blog</a></li>
+                    <li class="center">
+                    <form action="{% url 'useraccounts:logout' %}" method="post">
+                        {% csrf_token %}
+                        <button class="btn transparent black-text" type="submit">Logout</button>
+                    </form>
+                    </li>
+                    {% else %}
+                    <li><a href="{% url 'useraccounts:login' %}">Login</a></li>
+                    <li><a href="{% url 'useraccounts:signup' %}">Signup</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        {% if user.is_authenticated %}
+            <br><h5>Welcome {{ user }}!</h5><br>
+        {% endif %}
+     {% block content %}
+     {% endblock %}
+    </div>
+        <div class="footer-copyright">
+            <div class="container center">
+            &copy; 2019. All rights reserved.
+            </div>
+          </div>
+    <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $('.tooltipped').tooltip();
+      $('.parallax').parallax();
+     });
+  </script>
+</body>
+</html>

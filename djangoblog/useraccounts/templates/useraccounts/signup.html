@@ -1,0 +1,16 @@
+{% extends 'base_layout.html' %}
+
+{% block content %}
+    <div class="row">
+        <div class="col l6 s12 offset-l3 grey lighten-3">
+            <div class="login-hdr"><h3 class="center">Signup</h3></div>
+            <div class="login-body">
+                <form action="/accounts/signup/" class="user-form " method="post">
+                    {% csrf_token %}
+                    {{ form }}
+                    <div class="center "><input type="submit" value="SignUp" class="btn waves-effect"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

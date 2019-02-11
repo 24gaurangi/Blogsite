@@ -1,0 +1,17 @@
+{% extends 'base_layout.html' %}
+
+{% block content %}
+    <div class="blog-detail">
+      {% if blog %}
+        <div class="blog grey lighten-3">
+          <img src="{{ blog.thumb.url }}" alt="Thumbnail" />
+          <h2>{{ blog.title }}</h2>
+          <p>{{ blog.description }}</p>
+          <p>{{ blog.date }}</p>
+            
+        </div>
+      {% else %}
+        <p>There are no Blogs!</p>
+      {% endif %}
+    </div>
+{% endblock %}
