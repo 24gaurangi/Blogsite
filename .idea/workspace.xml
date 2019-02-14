@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="626daf23-7cb9-4bf1-ba66-9052767b403a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/DjangoAuthProject.iml" afterPath="$PROJECT_DIR$/.idea/DjangoAuthProject.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/djangoblog/templates/base_layout.html" afterPath="$PROJECT_DIR$/djangoblog/templates/base_layout.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,7 +15,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf>
+      <file leaf-file-name="base_layout.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/djangoblog/templates/base_layout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-297">
+              <caret line="22" column="74" lean-forward="false" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
+              <folding>
+                <marker date="1550176991351" expanded="true" signature="2792:2838" ph="..." />
+                <marker date="1550176991351" expanded="true" signature="2882:3016" ph="..." />
+                <marker date="1550176991351" expanded="true" signature="2939:3010" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,12 +68,12 @@
         <option value="$PROJECT_DIR$/djangoblog/assets/index.js" />
         <option value="$PROJECT_DIR$/djangoblog/bloglist/views.py" />
         <option value="$PROJECT_DIR$/djangoblog/bloglist/templates/bloglist/blog_create.html" />
-        <option value="$PROJECT_DIR$/djangoblog/templates/base_layout.html" />
         <option value="$PROJECT_DIR$/djangoblog/assets/style.css" />
         <option value="$PROJECT_DIR$/djangoblog/bloglist/models.py" />
         <option value="$PROJECT_DIR$/djangoblog/useraccounts/templates/useraccounts/signup.html" />
         <option value="$PROJECT_DIR$/djangoblog/bloglist/templates/bloglist/blog_detail.html" />
         <option value="$PROJECT_DIR$/djangoblog/bloglist/templates/bloglist/blog_list.html" />
+        <option value="$PROJECT_DIR$/djangoblog/templates/base_layout.html" />
       </list>
     </option>
   </component>
@@ -96,6 +114,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -113,80 +132,12 @@
               <item name="DjangoAuthProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="DjangoAuthProject" type="462c0819:PsiDirectoryNode" />
               <item name="djangoblog" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoAuthProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoAuthProject" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoblog" type="462c0819:PsiDirectoryNode" />
-              <item name="bloglist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoAuthProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoAuthProject" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoblog" type="462c0819:PsiDirectoryNode" />
-              <item name="bloglist" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoAuthProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoAuthProject" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoblog" type="462c0819:PsiDirectoryNode" />
-              <item name="bloglist" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoAuthProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoAuthProject" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoblog" type="462c0819:PsiDirectoryNode" />
-              <item name="bloglist" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="bloglist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoAuthProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoAuthProject" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoblog" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoblog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoAuthProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoAuthProject" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoblog" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoAuthProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoAuthProject" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoblog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoAuthProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoAuthProject" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoblog" type="462c0819:PsiDirectoryNode" />
-              <item name="useraccounts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoAuthProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoAuthProject" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoblog" type="462c0819:PsiDirectoryNode" />
-              <item name="useraccounts" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoAuthProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoAuthProject" type="462c0819:PsiDirectoryNode" />
-              <item name="djangoblog" type="462c0819:PsiDirectoryNode" />
-              <item name="useraccounts" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="useraccounts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,14 +146,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MoodPredictor/moodpredictor/predictor/views.py" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Gaurangi\PycharmProjects\DjangoAuthProject\djangoblog\assets" />
-      <recent name="C:\Users\Gaurangi\PycharmProjects\DjangoAuthProject\djangoblog\bloglist\templates\bloglist" />
-      <recent name="C:\Users\Gaurangi\PycharmProjects\DjangoAuthProject\djangoblog" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Gaurangi\PycharmProjects\DjangoAuthProject\djangoblog\assets" />
       <recent name="C:\Users\Gaurangi\PycharmProjects\DjangoAuthProject\djangoblog\media" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gaurangi\PycharmProjects\DjangoAuthProject\venv\Lib" />
+      <recent name="C:\Users\Gaurangi\PycharmProjects\DjangoAuthProject\venv" />
+      <recent name="C:\Users\Gaurangi\PycharmProjects\DjangoAuthProject\djangoblog\assets" />
+      <recent name="C:\Users\Gaurangi\PycharmProjects\DjangoAuthProject\djangoblog\bloglist\templates\bloglist" />
+      <recent name="C:\Users\Gaurangi\PycharmProjects\DjangoAuthProject\djangoblog" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -278,14 +231,14 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18637803" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33408833" sideWeight="0.5021119" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33408833" sideWeight="0.49788806" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33408833" sideWeight="0.5042239" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33408833" sideWeight="0.49577615" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45073614" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45073614" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -353,29 +306,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/djangoblog/useraccounts/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangoblog/templates/base_layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1550145379014" expanded="true" signature="2792:2838" ph="..." />
-            <marker date="1550145379014" expanded="true" signature="2882:3016" ph="..." />
-            <marker date="1550145379014" expanded="true" signature="2939:3010" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/djangoblog/djangoblog/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3267">
@@ -401,9 +331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <marker date="1550146256483" expanded="true" signature="553:558" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -411,9 +338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -421,7 +345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="91" lean-forward="false" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -436,9 +359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <marker date="1550146078750" expanded="true" signature="127:632" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -446,7 +366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3186">
           <caret line="118" column="4" lean-forward="false" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -455,10 +374,9 @@
         <state relative-caret-position="810">
           <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
           <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1550145379014" expanded="true" signature="2792:2838" ph="..." />
-            <marker date="1550145379014" expanded="true" signature="2882:3016" ph="..." />
-            <marker date="1550145379014" expanded="true" signature="2939:3010" ph="..." />
+            <marker date="1550176991351" expanded="true" signature="2792:2838" ph="..." />
+            <marker date="1550176991351" expanded="true" signature="2882:3016" ph="..." />
+            <marker date="1550176991351" expanded="true" signature="2939:3010" ph="..." />
           </folding>
         </state>
       </provider>
@@ -493,9 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <marker date="1550146256483" expanded="true" signature="553:558" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -510,7 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3186">
           <caret line="118" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="118" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -518,9 +432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <marker date="1550146078750" expanded="true" signature="127:632" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -528,7 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,7 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="91" lean-forward="false" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -649,7 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -657,7 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-243">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,9 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -680,7 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1392">
           <caret line="152" column="1" lean-forward="true" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,9 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-          <folding>
-            <marker date="1550146078750" expanded="true" signature="127:632" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -698,7 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-141">
           <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -706,9 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="55" selection-end-column="15" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,9 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -726,22 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="891">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <marker date="1550146256483" expanded="true" signature="553:558" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/djangoblog/templates/base_layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="68" selection-end-column="15" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1550145379014" expanded="true" signature="2792:2838" ph="..." />
-            <marker date="1550145379014" expanded="true" signature="2882:3016" ph="..." />
-            <marker date="1550145379014" expanded="true" signature="2939:3010" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -749,8 +626,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/no-global-site-packages.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangoblog/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3759">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/djangoblog/templates/base_layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="22" column="74" lean-forward="false" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <marker date="1550176991351" expanded="true" signature="2792:2838" ph="..." />
+            <marker date="1550176991351" expanded="true" signature="2882:3016" ph="..." />
+            <marker date="1550176991351" expanded="true" signature="2939:3010" ph="..." />
           </folding>
         </state>
       </provider>
