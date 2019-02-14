@@ -25,8 +25,8 @@
 
                 <ul class="right hide-on-med-and-down">
                     {% if user.is_authenticated %}
-                    <li><a href="{% url 'bloglist:create' %}" class="btn-flat btn-small waves-effect  waves-light tooltipped" data-tooltip="Create new Blog" type="submit">
-                            <i class="fas fa-plus"></i></a>
+                    <li>Welcome {{user}}!</li>
+                    <li><a href="{% url 'bloglist:create' %}" >New Blog </a>
                     </li>
                     <li>
                     <form action="{% url 'useraccounts:logout' %}" method="post">
@@ -58,18 +58,15 @@
         </nav>
     </div>
 
-    <div class="container">
-        {% if user.is_authenticated %}
-            <br><h5>Welcome {{ user }}!</h5><br>
-        {% endif %}
+
      {% block content %}
      {% endblock %}
-    </div>
-        <div class="footer-copyright">
-            <div class="container center">
-            &copy; 2019. All rights reserved.
-            </div>
-          </div>
+
+    <!--<div class="footer-copyright black">-->
+        <!--<div class="container white-text center">-->
+        <!--&copy; 2019. All rights reserved.-->
+        <!--</div>-->
+     <!--</div>-->
     <!-- Compiled and minified JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" language="Javascript" src="{% static 'index.js' %}"></script>

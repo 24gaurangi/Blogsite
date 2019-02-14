@@ -1,28 +1,36 @@
 {% extends 'base_layout.html' %}
 
 {% block content %}
+<div class="container">
     {% if blog %}
     <div class="blog-detail grey lighten-3">
-
-    <div class="blog ">
+    <div class="blog">
       <img src="{{ blog.thumb.url }}" alt="Thumbnail" />
-      <h2>{{ blog.title }}</h2>
+        <div class="row likes">
+            <h2 class="left">{{ blog.title }}</h2>
+            {% if user.is_authenticated %}
+            <form class="right" action="{% url 'bloglist:detail' blog.slug %}" method="post">
+            {% csrf_token %}
+            <button class="btn-floating btn-large pink right" type="submit" name="likes" value="{{blog.id}}"><i class="fas fa-heart">{{blog.total_likes}}</i></button>
+             <!--Like{{blog.total_likes|pluralize}}-->
+            </form>
+            {% else %}
+            <button class="btn-floating pink btn-large right" type="" name="likes" value="{{blog.id}}"><i class="fas fa-heart">{{blog.total_likes}}</i></button>
+            {% endif %}
+        </div>
+        <div class="row">
       <p>{{ blog.description }}</p>
       <p>{{ blog.date }}</p>
-
     </div>
-    <!--<div class="container center">-->
-        <!--<form action="{% url 'bloglist:detail' blog.slug %}" method="post">-->
-            <!--{% csrf_token %}-->
-            <!--<button class="btn-floating btn-large"name="likes">{{blog.likes}}</button>-->
-        <!--</form></div>-->
-      <!--&lt;!&ndash;<button class="btn-floating btn-large" onclick="addLikes({{blog.likes}})">hi</button>&ndash;&gt;-->
-        <!--&lt;!&ndash;<span id="like">{{blog.likes}}</span>&ndash;&gt;-->
+  </div>
 
-      <div class="blog blue lighten-5">
+      <!--<button class="btn-floating btn-large" onclick="addLikes({{blog.likes}})">hi</button>-->
+        <!--<span id="like">{{blog.likes}}</span>-->
+
+    <div class="blog blue lighten-5">
         <h5>Comments</h5>
-         <hr>
-          {% if user.is_authenticated %}
+        <hr>
+        {% if user.is_authenticated %}
         <div class="comment-form">
         <form action="{% url 'bloglist:detail' blog.slug %}" method="post">
             {% csrf_token %}
@@ -38,13 +46,14 @@
             <span class="date"> ({{ comment.date }})</span>
             <p>{{ comment.comment|linebreaks }}</p>
         </div>
-          {% endfor %}
-          {% else %}
-            <p>No comments here yet :(</p>
-          {% endif %}
+      {% endfor %}
+      {% else %}
+        <p>No comments here yet :(</p>
+      {% endif %}
      </div>
-         {% else %}
-           <p>There are no Blogs!</p>
-        {% endif %}
+     {% else %}
+       <p>There are no Blogs!</p>
+    {% endif %}
+    </div>
     </div>
 {% endblock %}

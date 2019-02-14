@@ -14,7 +14,7 @@ def about(request):
     return render(request, 'about.html')
 
 def blog_list(request):
-    blogs = Blog.objects.all().order_by('date')
+    blogs = Blog.objects.distinct()
     return render(request,'bloglist/blog_list.html', {'blogs': blogs})
 
 def blog_details(request, slug):
@@ -23,9 +23,8 @@ def blog_details(request, slug):
     if request.method == "POST":
         print(request.POST)
         if "likes" in request.POST:
-            blog.likes = blog.likes + 1
-            blog.save()
-            print(blog)
+            blog.likes.add(request.user)
+            print(blog.likes)
             form = forms.CreateComment()
             return render(request, 'bloglist/blog_detail.html', {'blog': blog, 'comments': comments, 'form': form})
         else:

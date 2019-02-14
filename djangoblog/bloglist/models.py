@@ -3,12 +3,11 @@ from django.contrib.auth.models import User
 
 # Create your models here.
 
-
 class Blog(models.Model):
     title=models.CharField(max_length=100)
     slug=models.SlugField()
     description=models.TextField()
-    likes=models.IntegerField(default=0)
+    likes=models.ManyToManyField(User, related_name='likes', blank=True)
     date=models.DateTimeField(auto_now_add=True)
     thumb=models.ImageField(default='default.png', blank=True)
     author=models.ForeignKey(User, default=None, on_delete=models.CASCADE)
@@ -20,6 +19,8 @@ class Blog(models.Model):
     def snippet(self):
         return self.description[:50]+"..."
 
+    def total_likes(self):
+        return self.likes.count()
 
 class Comment(models.Model):
     blog=models.ForeignKey(Blog, default=None, on_delete=models.CASCADE)
