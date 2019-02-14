@@ -14,11 +14,12 @@
 
     <!-- Compiled and minified JavaScript -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Flora&Fauna</title>
 </head>
 <body>
     <div class="navbar-fixed">
-        <nav>
-            <div class="navbar-wrapper">
+        <nav class="black">
+            <div class="navbar-wrapper black ">
                 <a href="{% url 'homepage' %}" class="brand-logo">Blogs</a>
                 <a href="" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
@@ -71,6 +72,8 @@
           </div>
     <!-- Compiled and minified JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" language="Javascript" src="{% static 'index.js' %}"></script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   <script>
     $(document).ready(function(){

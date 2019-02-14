@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
-from .models import Blog
+from .models import Blog, Comment
 from . import forms
 import requests
 from django.contrib.auth.decorators import login_required
@@ -19,7 +19,28 @@ def blog_list(request):
 
 def blog_details(request, slug):
     blog = Blog.objects.get(slug = slug)
-    return render(request, 'bloglist/blog_detail.html', {'blog': blog})
+    comments = Comment.objects.filter(blog=blog.id).order_by('date')[:5]
+    if request.method == "POST":
+        print(request.POST)
+        if "likes" in request.POST:
+            blog.likes = blog.likes + 1
+            blog.save()
+            print(blog)
+            form = forms.CreateComment()
+            return render(request, 'bloglist/blog_detail.html', {'blog': blog, 'comments': comments, 'form': form})
+        else:
+            form = forms.CreateComment(request.POST)
+            if form.is_valid():
+                #save to db
+                new_comment=form.save(commit=False)
+                new_comment.blog=blog
+                new_comment.author=request.user if request.user else 'guest'
+                new_comment.save()
+                form = forms.CreateComment()
+                return render(request, 'bloglist/blog_detail.html', {'blog': blog, 'comments': comments, 'form':form})
+    else:
+        form = forms.CreateComment()
+    return render(request, 'bloglist/blog_detail.html', {'blog': blog, 'comments':comments, 'form':form })
 
 @login_required(login_url='/accounts/login/')
 def blog_create(request):
@@ -40,3 +61,4 @@ def rest_view(request):
     todos = response.json()
     print(todos)
     return render(request, 'bloglist/rest.html', {'todos':todos})
+

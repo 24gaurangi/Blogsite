@@ -1,11 +1,12 @@
 {% extends 'base_layout.html' %}
+{% load static from staticfiles %}
 
 {% block content %}
         <div class="parallax-container">
-        <div class="parallax"><img src="media/banner.png" alt=""></div>
+        <div class="parallax"><img src="{% static '/banner.png' %}" alt=""></div>
     </div>
     <p class="center">Below are some of interesting reads about flowers from all around the world!</p>
-    <p class="center">You can contribute to the list below by clicking on add button above. Happy reading!
+    <p class="center">You can contribute to the list below by signing up and creating your own blogs. Happy reading!
     </p>
     <div class="">
       {% if blogs %}

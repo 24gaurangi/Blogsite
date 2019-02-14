@@ -44,10 +44,10 @@ a, a:hover, a:visited{
 }
 
 .blog{
-    padding: 10px;
-    border: 1px solid #0011;
+    padding: 10px,10px;
     position: relative;
     padding-bottom: 40px;
+    border-radius: 18px;
 }
 
 .blog h2{
@@ -65,8 +65,9 @@ a, a:hover, a:visited{
 }
 
 .blog-detail .blog{
-    padding: 1rem;;
-    margin:1rem;
+
+    padding: 1rem;
+    margin:2rem 2rem;
 }
 
 .blog-detail  .blog img{
@@ -80,6 +81,10 @@ a, a:hover, a:visited{
     font-size: 2em
 }
 
+.blog-detail{
+       border: 1px solid #0011;
+       margin:5px;
+}
 .blog-detail .blog h3{
     text-align: center;
 }
@@ -111,9 +116,29 @@ a.highlight{
     margin: 10px 0;
 }
 .navbar-wrapper{
-    padding: 0 3rem;
+    padding: 0rem 3rem;
+
 }
+.nav{
+    background-color:black;
+    }
 .footer-copyright{
 background-color:#ee6e73;
 padding:1rem 2rem;
+}
+.comment-form {
+    padding:.2rem;
+    margin:.5rem;
+    border-radius:5px;
+}
+input#id_comment{
+    border-radius:5px;
+    border:solid 2px #11111;
+    background-color:white;
+}
+.comments{
+    padding:.3rem .3rem .3rem .5rem;
+    margin:.5rem;
+    border-radius:5px;
+    background-color:white;
 }
