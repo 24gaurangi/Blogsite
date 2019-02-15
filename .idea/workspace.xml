@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="626daf23-7cb9-4bf1-ba66-9052767b403a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Procfile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/djangoblog/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,7 +38,7 @@
         </entry>
       </file>
       <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/djangoblog/Procfile">
+        <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
               <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -197,11 +197,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gaurangi\PycharmProjects\DjangoAuthProject" />
       <recent name="C:\Users\Gaurangi\PycharmProjects\DjangoAuthProject\venv\Lib" />
       <recent name="C:\Users\Gaurangi\PycharmProjects\DjangoAuthProject\venv" />
       <recent name="C:\Users\Gaurangi\PycharmProjects\DjangoAuthProject\djangoblog\assets" />
       <recent name="C:\Users\Gaurangi\PycharmProjects\DjangoAuthProject\djangoblog\bloglist\templates\bloglist" />
-      <recent name="C:\Users\Gaurangi\PycharmProjects\DjangoAuthProject\djangoblog" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Gaurangi\PycharmProjects\DjangoAuthProject\djangoblog" />
@@ -700,7 +700,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/djangoblog/Procfile">
+    <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
