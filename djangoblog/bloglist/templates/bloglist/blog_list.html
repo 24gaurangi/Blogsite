@@ -1,0 +1,35 @@
+{% extends 'base_layout.html' %}
+{% load static from staticfiles %}
+
+{% block content %}
+    <div class="parallax-container">
+       <div class="valign-wrapper h100">
+        <h6 class=" white-text overlay center">
+          Below are some interesting blogs from all around the world!
+          You can contribute to the list by signing up and creating your own blogs. Happy reading!
+        </h6>
+        <div class="parallax">
+          <img src="{% static '/portfolio-1.jpg' %}" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+     <div class="">
+      {% if blogs %}
+         {% for b in blogs %}
+            <div class="">
+              <span>
+                  <h4><a href="{% url 'bloglist:detail' slug=b.slug %}">{{ b.title }}</a>
+                  </h4> {{b.total_likes}} Like{{b.total_likes|pluralize}}</span>
+              <em class="grey-text">Published by {{b.author}} on {{ b.date }}</em>
+              <h6>{{ b.snippet }}</h6>
+
+            </div>
+        <hr>
+         {% endfor %}
+      {% else %}
+        <p>There are no Blogs!</p>
+      {% endif %}
+    </div>
+  </div>
+{% endblock %}
