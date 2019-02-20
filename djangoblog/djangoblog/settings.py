@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bloglist',
     'useraccounts',
-    'djangoblog',
+    'gunicorn',
 ]
 
 MIDDLEWARE = [
