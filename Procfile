@@ -1,1 +1,1 @@
-web: PYTHONPATH=`pwd`/.. gunicorn djangoblog.wsgi --log-file -
+web: gunicorn djangoblog.wsgi --log-file -
