@@ -1,6 +1,6 @@
 apiclient==1.0.3
 Babel==2.5.3
-Django==2.0.3
+Django==2.2.24
 django-tastypie==0.14.0
 djangorestframework==3.7.7
 django-heroku==0.3.1
