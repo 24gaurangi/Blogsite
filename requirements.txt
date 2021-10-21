@@ -1,5 +1,5 @@
 apiclient==1.0.3
-Babel==2.5.3
+Babel==2.9.1
 Django==2.0.3
 django-tastypie==0.14.0
 djangorestframework==3.7.7
